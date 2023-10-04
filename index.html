@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sławek portfolio</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#featured">Work</a>
+          </li>
+          <li>
+            <a class="header__link" href="#contact">Contact</a>
+          </li>
+          <li class="header__line"></li>
+          <li>
+            <button class="header__lamp">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a class="header__resume btn" href="#">Resume</a>
+          </li>
+        </ul>
+        <button class="header__bars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0l-3.75-3.75M17.25 21L21 17.25"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero cointainer">
+        <img class="hero__img" src="/heroimg.jpg" alt="Picture of me" />
+        <h2 class="hero__greeting">Hi! I'm Sławek</h2>
+        <h1 class="hero__title animate">REACT WEB <br />DEVELOPER</h1>
+        <p class="hero__description">
+          ...in the making. I'm a passionate Frontend / Fullstack developer that
+          focuses mainly on simple, intuitive interfaces that are user friendly.
+        </p>
+        <a class="hero__btn btn" href="#">Contact me</a>
+      </section>
+      <section class="about container section">
+        <div>
+          <h3>About me</h3>
+          <h2>I develop Websites</h2>
+          <p>
+            Hello there! I'm Sławek, a React web developer from Poland. I taught
+            myself to code because of boredom, but then realized it's pretty fun
+            and challenging. Now I'm passionate about it and want to delevop in
+            that field.
+          </p>
+          <p></p>
+          <p></p>
+        </div>
+      </section>
+      <!-- <section></section> -->
+      <!-- <section></section> -->
+      <!-- <section></section> -->
+    </main>
+    <!-- <footer></footer> -->
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+:root {
+  /* wybrów głównych kolorków */
+  --clr-dark: #030616;
+  --clr-red: #f12760;
+  --clr-orange: #ff6969;
+  --clr-white: #e2d5b5;
+  --clr-blue: #00adb5;
+  --clr-gray: #7c8a8d;
+  /*  blue rgb(0, 173, 181) */
+  /*  red  rgb(241, 39, 96)  */
+
+  /* sizes */
+  --size-xss: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-4xlplus: 2.7rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* font family do zmiany, zależnie od projektu  */
+body {
+  font-family: "Satoshi", sans-serif;
+  background-color: var(--clr-dark);
+  color: var(--clr-white);
+}
+
+/* change display to inline/inline-block/flex when using text-align: center; */
+/* https://quirksmode.org/css/css2/display.html */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
