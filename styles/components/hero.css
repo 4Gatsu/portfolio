@@ -27,7 +27,7 @@
 
 .hero {
   text-align: center;
-  border: 1px blueviolet solid;
+  /* border: 1px blueviolet solid; */
   display: flex;
   flex-direction: column;
   justify-content: center;
