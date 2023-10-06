@@ -113,6 +113,7 @@
     font-size: var(--size-base);
     line-height: 1.55;
     letter-spacing: -0.002rem;
+    max-width: 45ch;
   }
 
   .hero__btn {
@@ -124,8 +125,11 @@
 /* @media (min-width: 640px) {} */
 
 /* md */
-/* @media (min-width: 768px) {
-} */
+@media (min-width: 768px) {
+  .hero__description {
+    max-width: 50ch;
+  }
+}
 
 /* lg */
 @media (min-width: 1024px) {
