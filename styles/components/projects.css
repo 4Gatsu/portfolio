@@ -71,6 +71,7 @@
 
 .projects__github h2 {
   font-size: var(--size-lg);
+  margin-bottom: 0.5rem;
 }
 
 .projects__github a {
