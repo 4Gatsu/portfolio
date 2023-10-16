@@ -4,7 +4,7 @@ const mobileNav = () => {
   const mobileLinks = document.querySelectorAll(".mobile-nav__link");
 
   let isMobileNavOpen = false;
-
+  // TAB menu is on fullscreen
   headerBtn.addEventListener("click", () => {
     isMobileNavOpen = !isMobileNavOpen;
     if (isMobileNavOpen === true) {
