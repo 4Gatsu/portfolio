@@ -38,6 +38,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.light-mode {
+  --clr-white: #030616;
+  --clr-dark: #dad1bd;
+  --clr-gray: rgb(87, 93, 95);
+}
+
 /* font family do zmiany, zależnie od projektu  */
 body {
   font-family: "Satoshi", sans-serif;
