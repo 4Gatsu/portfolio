@@ -40,7 +40,7 @@ html {
 
 .light-mode {
   --clr-white: #030616;
-  --clr-dark: #dad1bd;
+  --clr-dark: white;
   --clr-gray: rgb(87, 93, 95);
 }
 
