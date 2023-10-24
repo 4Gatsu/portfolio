@@ -21,7 +21,7 @@
   font-weight: 600;
   text-decoration: none;
   background-color: var(--clr-red);
-  color: var(--clr-white);
+  color: #e3eaec;
   padding: 0.5em 1.2em;
   border-radius: 5px;
   box-shadow: 0 10px 20px rgba(241, 39, 96, 0.5),
