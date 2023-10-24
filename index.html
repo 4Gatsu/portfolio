@@ -2,16 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap"
       rel="stylesheet"
     />
     <title>Sławek portfolio</title>
+    <link rel="icon" type="image/x-icon" href="cv.png" />
   </head>
   <body>
-    
     <header class="header container">
       <nav>
         <ul class="header__menu">
@@ -104,7 +103,13 @@
     <!-- End of mobile navbar  -->
     <main>
       <section class="hero container">
-        <img class="hero__img" src="/heroimg.jpg" alt="Picture of me" width="100" height="100"/>
+        <img
+          class="hero__img"
+          src="/heroimg.jpg"
+          alt="Picture of me"
+          width="100"
+          height="100"
+        />
         <h2 class="hero__greeting">Hi! I'm Sławek</h2>
         <h1 class="hero__title animate">REACT WEB <br />DEVELOPER</h1>
         <p class="hero__description">
@@ -117,15 +122,17 @@
         <div class="about__content">
           <h2 class="about__title">About me</h2>
           <p class="about__text">
-            Hi! I'm Sławek, a React web developer from Poland. I taught
-            myself to code because of boredom, but after doing a few udemy
-            courses I realized I can do many fun and challenging things. 
-            Now I'm passionate about code and want to develop in that field.
+            Hi! I'm Sławek, a React web developer from Poland. I taught myself
+            to code because of boredom, but after doing a few udemy courses I
+            realized I can do many fun and challenging things. Now I'm
+            passionate about code and want to develop in that field.
           </p>
-          <p class="about__text"> About two years ago I started learning Python, however 
-            6 months later decided that doing Front End is more intuitive 
-            and beginner friendly for me. The transition wasn't that difficult, as
-            many concepts were pretty similar on the basic level, and I'm a pretty quick-witted person.
+          <p class="about__text">
+            About two years ago I started learning Python, however 6 months
+            later decided that doing Front End is more intuitive and beginner
+            friendly for me. The transition wasn't that difficult, as many
+            concepts were pretty similar on the basic level, and I'm a pretty
+            quick-witted person.
           </p>
           <p class="about__text">
             Aside from programming, you'll often find me immersed in the
@@ -137,32 +144,63 @@
           <h3 class="about__subtitle">Technologies</h3>
           <ul class="about__list">
             <li class="about__list-item">
-              <img loading="lazy" class="about__icon" src="/react.png" alt="react icon" />
+              <img
+                loading="lazy"
+                class="about__icon"
+                src="/react.png"
+                alt="react icon"
+              />
             </li>
             <li class="about__list-item">
-              <img loading="lazy" class="about__icon" src="/js.png" alt="javascript icon" />
+              <img
+                loading="lazy"
+                class="about__icon"
+                src="/js.png"
+                alt="javascript icon"
+              />
             </li>
             <li class="about__list-item">
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 class="about__icon"
                 src="/typescript.png"
                 alt="typescript icon"
               />
             </li>
             <li class="about__list-item">
-              <img loading="lazy" class="about__icon" src="/html-5.png" alt="html icon" />
+              <img
+                loading="lazy"
+                class="about__icon"
+                src="/html-5.png"
+                alt="html icon"
+              />
             </li>
             <li class="about__list-item">
-              <img loading="lazy" class="about__icon" src="/css-3.png" alt="css icon" />
+              <img
+                loading="lazy"
+                class="about__icon"
+                src="/css-3.png"
+                alt="css icon"
+              />
             </li>
             <li class="about__list-item">
-              <img loading="lazy" class="about__icon" src="/chatgpt.jpg" alt="ChatGPT icon" />
+              <img
+                loading="lazy"
+                class="about__icon"
+                src="/chatgpt.jpg"
+                alt="ChatGPT icon"
+              />
             </li>
           </ul>
         </div>
         <hr class="about__hr" />
         <div class="about__imageinfo">
-          <img loading="lazy" class="about__image" src="/aboutimg.jpg" alt="Profile Picture" />
+          <img
+            loading="lazy"
+            class="about__image"
+            src="/aboutimg.jpg"
+            alt="Profile Picture"
+          />
           <div class="about__info">
             <!-- its a flex row section-->
             <div class="about__info-column">
@@ -178,9 +216,7 @@
             <div class="about__info-column">
               <div class="about__info-element">
                 <h4>Education</h4>
-                <p>
-                  Self taught 
-                </p>
+                <p>Self taught</p>
               </div>
               <div class="about__info-element">
                 <h4>Employement</h4>
@@ -192,9 +228,12 @@
       </section>
       <section id="projects" class="projects container section">
         <h2 class="projects__title">Projects</h2>
-        <p class="projects__description">I've got a pretty straightforward approach when it comes down to building projects;
-          I like to collect my thoughts, choose appropriate color and text family to match the website tone, 
-          and only then do I start writing the code.</p>
+        <p class="projects__description">
+          I've got a pretty straightforward approach when it comes down to
+          building projects; I like to collect my thoughts, choose appropriate
+          color and text family to match the website tone, and only then do I
+          start writing the code.
+        </p>
         <div class="projects__container">
           <!-- Project 1 -->
           <h3 class="projects__project-title invisible">CarShop</h3>
@@ -207,16 +246,24 @@
               React, Javascript, Typescript, HTML, CSS
             </p>
             <p class="projects__project-description2">
-              My very first, larger project, which, to be honest, I was doing a bit blindly. 
-              I won't lie, I was inspired by other sites to get the desired effect, 
-              but I created it myself using tips from Stack Overflow or Chat GPT. 
-              I learned a lot of concepts while looking for information on how to do
-              something I wanted to implement, and the amount of knowledge I gained 
-              while creating it now allows me to safely say that it is very 
-              amateurish. Even thought I had to brute-force a few things,
-              I'm happy with the end result.
+              My first larger project that I did a bit blindly. I was inspired
+              by other sites, but I created the whole website by myself with
+              help from Stack Overflow or Chat GPT. I learned a lot of concepts,
+              and the amount of knowledge I gained while creating it developed
+              my skills for future projects greatly.
             </p>
-            <a class="btn projects__project-button" href="https://4gatsu.github.io/vite-carshop/">Website</a>
+            <div class="projects__icons">
+              <a
+                class="btn projects__project-button"
+                href="https://4gatsu.github.io/vite-carshop/"
+                >Website</a
+              >
+              <a
+                class="github__icon"
+                href="https://github.com/4Gatsu/vite-carshop"
+                ><img src="github-icon.png"
+              /></a>
+            </div>
           </div>
           <!-- Project 2 -->
           <h3 class="projects__project-title invisible">Portfolio</h3>
@@ -225,28 +272,34 @@
           </div>
           <div class="project__wrapper projects__content2">
             <h3 class="projects__project-title visible">Portfolio</h3>
-            <p class="projects__project-description1">
-              Javascript, HTML, CSS
-            </p>
+            <p class="projects__project-description1">Javascript, HTML, CSS</p>
             <p class="projects__project-description2">
-              My second website. I focused mainly on simplicity and, above all, 
-              I planned everything neatly, without blindly jumping into the abyss,
-              as it was the case with my first project. I learned good practises, 
-              and created my own template for future projects that contains
-              text sizes, responsive containers, sections, or buttons to name a 
-              few. I also decided that from now on, I'll build my websites mobile first,
-              as it not only easier for me, but also the mobile device internet 
-              traffic comes mostly from mobile phones and I think it's a good 
-              approach/skill to have.
+              Here I focused on simplicity and planned everything neatly. I
+              learned good practises and created my own template for future
+              projects. I also decided that I'll build my websites mobile first,
+              as it's not only easier for me, but also the mobile device
+              internet traffic comes mostly from mobile phones and I think it's
+              a good approach/skill to have.
             </p>
-            <a class="btn projects__project-button" href="">Website</a>
-            
+            <div class="projects__icons">
+              <a
+                class="btn projects__project-button"
+                href="https://4gatsu.github.io/vite-carshop/"
+                >Website</a
+              >
+              <a
+                class="github__icon"
+                href="https://github.com/4Gatsu/vite-carshop"
+                ><img src="github-icon.png"
+              /></a>
+            </div>
           </div>
 
           <!-- Project 3 -->
           <h3 class="projects__project-title invisible">TBA</h3>
           <div class="projects__img-wrapper projects__image3">
-            <img loading="lazy"
+            <img
+              loading="lazy"
               src="https://www.pngkit.com/png/detail/938-9381432_900-x-900-1-desenho-pic-nic-png.png"
               alt="tba website"
             />
@@ -254,20 +307,27 @@
           <div class="project__wrapper projects__content3">
             <h3 class="projects__project-title visible">TBA</h3>
             <p class="projects__project-description1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              mollis pretium mi eu iaculis. In hac habitasse platea dictumst.
-              Aliquam vulputate rhoncus nulla
+              Lorem ipsum dolor sit amet
             </p>
             <p class="projects__project-description2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              at magna a elit ornare pulvinar. Nam maximus arcu non quam
-              eleifend</p>
-              <a class="btn projects__project-button" href="">Website</a>
+              Currently I'm working on a new project. I want to learn more about
+              APIs and Tailwind, and use them in this project.
             </p>
+            <div class="projects__icons">
+              <a
+                class="btn projects__project-button"
+                href="https://4gatsu.github.io/vite-carshop/"
+                >Website</a
+              >
+              <a
+                class="github__icon"
+                href="https://github.com/4Gatsu/vite-carshop"
+                ><img src="github-icon.png"
+              /></a>
+            </div>
           </div>
         </div>
         <div class="projects__github">
-
           <h2>Want to see more of my projects?</h2>
           <a href="https://github.com/4Gatsu">visit my Github Profile!</a>
         </div>
