@@ -66,9 +66,9 @@
 }
 
 .github__icon {
-  display: block;
-  width: 2rem;
-  height: 2rem;
+  display: inline;
+  width: 2.25rem;
+  height: 2.25rem;
 }
 
 .projects__icons {
@@ -223,6 +223,11 @@
   .projects__github a {
     font-size: var(--size-base);
   }
+
+  .github__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
 
 /* lg */
@@ -282,6 +287,11 @@
 
   .projects__project-button {
     font-size: var(--size-lg);
+  }
+
+  .github__icon {
+    width: 3.2rem;
+    height: 2.8rem;
   }
 
   .projects__container {
