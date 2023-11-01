@@ -21,12 +21,12 @@
   font-weight: 600;
   text-decoration: none;
   background-color: var(--clr-red);
-  color: #e3eaec;
+  color: #e0ebee;
   padding: 0.5em 1.2em;
   border-radius: 5px;
   box-shadow: 0 10px 20px rgba(241, 39, 96, 0.5),
     0 6px 6px rgba(241, 39, 96, 0.5), 0 0 100px -10px var(--clr-red);
-  transition: transform 0.3s, box-shadow 0.8s;
+  transition: transform 0.3s, box-shadow 0.7s;
 }
 
 .btn:hover {
